@@ -1,0 +1,9 @@
+john:
+  id: 1
+  username: john
+  email: john@email.com
+
+jane:
+  id: 2
+  username: jane
+  email: jane@email.com
