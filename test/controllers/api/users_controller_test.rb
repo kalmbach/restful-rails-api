@@ -12,7 +12,8 @@ module Api
           [
             { id: users(:john).id, username: users(:john).username },
             { id: users(:jane).id, username: users(:jane).username }
-          ]
+          ],
+          page_count: 2, total_count: 2, current_page: 1, total_pages: 1
         }.to_json
     end
 

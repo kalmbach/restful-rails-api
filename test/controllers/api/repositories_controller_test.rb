@@ -12,7 +12,8 @@ module Api
           [
             { id: repositories(:one).id, name: repositories(:one).name },
             { id: repositories(:two).id, name: repositories(:two).name }
-          ]
+          ],
+          page_count: 2, total_count: 2, current_page: 1, total_pages: 1
         }.to_json
     end
 
