@@ -6,10 +6,10 @@ encapsulates the majority of the API logic.
 
 Requirements
 ------------
-rails 4
-responders
-jbuilder
-kaminari
+- rails 4
+- responders
+- jbuilder
+- kaminari
 
 About this reference implementation
 -----------------------------------
@@ -52,8 +52,7 @@ Rails.application.routes.draw do
 end
 ```
 
-This is just a very basic implementation, you probably will want to secure 
-the access with authentication, permissions, fragment caching in the jbuilder 
-views, etc.
+This is just a very basic implementation, you probably will want to extend it
+adding authentication, permissions, fragment caching in the jbuilder views, etc.
 
 Have fun!
