@@ -1,6 +1,8 @@
 Restful Rails API
 =================
 
+[![Code Climate](https://codeclimate.com/github/kalmbach/restful-rails-api.png)](https://codeclimate.com/github/kalmbach/restful-rails-api)
+
 Reference implementation of a REST API in Rails 4 using a base class that
 encapsulates the majority of the API logic.
 
